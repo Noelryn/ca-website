@@ -1,3 +1,20 @@
+- first_name: Pia
+  last_name: Von 
+  image: Gustaf-400.png
+  summary: Social worker to Software developer
+  testimonial: Writing code and breaking code is the fun part
+  cohort_month: September
+  cohort_year: 2019
+  categories:
+    - career changer
+  case_study:
+    - question: What was the best part if the Bootcamp?
+      answer: The best part of the bootcamp, except for the people you meet here, is actually to be able to explore things and use your inner curiosity and create things and break things. Writing code and breaking code is the most fun part, you get to experiment, you get to mess up, it helps you realize things about yourself which is very cool. You code a lot in the last two weeks of the bootcamp we coded around 80 hours a week
+    - question: What was the hardest part of the Bootcamp?
+      answer: Personally it was to not have much of a social life and not having any spare time. You don’t really have time to exercise, hardly anytime to meet other people outside of the bootcamp and that is a weird feeling. I am a very very active person and to not be able to do that was a big challenge actually.
+    - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
+      answer: The only advice I would give to anyone thinking of starting the bootcamp is pretty simple … leave your ego at home. Whatever you bring with you is great, any past experiences are going to pave your way, but leave your ego at home. It is only going to get in the way, just accept the fact that you don’t know things and try to learn them.
+
 - first_name: Erik
   last_name: Steinman
   image: erik-thomas.png
@@ -208,3 +225,5 @@
       answer: That I now code more or less full-time and make things that I only could have dreamed about doing before I participated in the bootcamp. I was very close to deciding not to enroll but now I can barely understand how I could have hesitated. Those twelve weeks have proved to be one of the best investments I have made in myself!
     - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
       answer: Just do it! I have a hard time thinking of better ways to ensure one’s future. Whether you work as a developer or not, you’ll gain a huge benefit from your experiences with Craft Academy. Code is a global language, as important to understand as English. Without that understanding, it will be very difficult to keep up with the future job market.
+
+      
