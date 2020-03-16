@@ -1,6 +1,21 @@
+- first_name: David
+  last_name: Izosimov
+  summary: Kickstarting my Developer career.
+  testimonial: I transformed as a person
+  cohort_month: September
+  cohort_year: 2019
+  categories:
+    - career changer
+  case_study:
+    - question: What was the best part if the Bootcamp?
+      answer: For me, it is how I transformed as a person and the people that are here, I have formed a pretty insane friendship with both coaches and other students. In terms of the transformation, I came in a lazy, bored, no drive 20-year-old and I am leaving as a skilled developer with drive to get a job
+    - question: What was the hardest part of the Bootcamp?
+      answer: The Hardest Part of the bootcamp was my personality coming into this bootcamp, I was very lazy. I had an easy time in school and I wasn’t really been persistent and resilient all the time, there were times when I would finish early and I could have spent that time coding more instead of watching Netflix, but around week 6 is when things started to change and that is when I became a whole different person.
+    - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
+      answer: So advice for anyone new people in the bootcamp, DEBUGGERS!! Use a lot of them everywhere. Even if it is scary at first, things will start working, don’t get scared or discouraged. Another thing I wish I knew about a lot sooner, is to trust the process because you will actually know things at the end and keep on studying on evenings and weekends.
+
 - first_name: Pia
   last_name: Von 
-  image: Gustaf-400.png
   summary: Social worker to Software developer
   testimonial: Writing code and breaking code is the fun part
   cohort_month: September
