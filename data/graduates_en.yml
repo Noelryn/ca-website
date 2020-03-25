@@ -1,5 +1,6 @@
 - first_name: David
   last_name: Izosimov
+  image: david_izosimov.png
   summary: Kickstarting my Developer career.
   testimonial: I transformed as a person
   cohort_month: September
@@ -15,7 +16,8 @@
       answer: So advice for anyone new people in the bootcamp, DEBUGGERS!! Use a lot of them everywhere. Even if it is scary at first, things will start working, don’t get scared or discouraged. Another thing I wish I knew about a lot sooner, is to trust the process because you will actually know things at the end and keep on studying on evenings and weekends.
 
 - first_name: Pia
-  last_name: Von 
+  last_name: Von Wachenfelt
+  image: pia.png
   summary: Social worker to Software developer
   testimonial: Writing code and breaking code is the fun part
   cohort_month: September
