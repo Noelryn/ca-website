@@ -16,7 +16,7 @@ gem 'neat', '~> 1.7.2'
 gem 'middleman-dotenv', '~> 1.0'
 gem 'middleman-deploy', '~> 1.0'
 gem 'haml', '~> 4.0', '>= 4.0.7'
-gem 'puma', '~> 2.7'
+gem 'puma'
 
 # security updates
 gem 'ffi', '~> 1.9.24'
