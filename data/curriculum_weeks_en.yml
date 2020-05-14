@@ -7,32 +7,32 @@
   blurb: The first week's challenge is to build a simple ATM Simulator. The challenge is about understanding how an everyday situation might look like when you think about it in terms of code and how different objects interact with each other. During the week, we introduce a number of new terms and concepts that lay the foundation for your future development. We practice pair programming and test driven development and we also struggle with version control and more advanced Ruby syntax. During this week we also introduce a user-focused approach to program development. The week ends with your first individual Weekend Challenge.
 
 - title: Week 2
-  summary: Introduction to JavaScript
-  blurb: This week, we continue to build your JavaScript, HTML and CSS skills. Together we'll build an Address Book application with rich functionality and look into simple strategies for storing and persisting information. We'll also continue our journey into Test Driven Development and introduce you to Behavior Driven Design (BDD). We also go through the basics of HTML and CSS as we build this week's challenge. You will also get to deploy your first app on the Internet. Once again, you will have a Weekend Challenge to complete.
+  summary: Introduction to React
+  blurb: This week, you'll build your own portfolio site using a JS library called React. We go in-depth with React, learn a styling framework called Semantic-ui, and introduce React Router. At the end of the week, you'll have a professional portfolio site, which you will fill with the projects you complete over the rest of the course.
 
 - title: Week 3
-  summary: SPA with React
-  blurb: This week, you'll build your own portfolio site using a JS library called React. We go in-depth with React, learn a styling framework called Tailwind, and introduce React Router. At the end of the week, you'll have a professional portfolio site, which you will fill with the projects you complete over the rest of the course.
-
-- title: Week 4
-  summary: Pair Programming and User-Driven Development
-  blurb: This week we begin to lay the foundation for an online system that allows users to order food online. We introduce Ruby on Rails,  a popular and in-demand framework that allows programmers to build complex, exciting web applications, and give you your first insight into Agile practices, focusing on Behavior Driven Development. The Slow Food Challenge is also about thinking more deeply about how the pieces of an application fit together, using advanced techniques such as user registration, authentication and authorization. At the end of the week, we are ready to go live with the Slow Food Online application and we deploy our system using Heroku. To facilitate and automate our deploy process we use techniques such as Continuous Integration and Continuous Deployment.
-
-- title: Week 5
   summary: Software as a Service with Ruby on Rails
   blurb: Software as a Service - Work the web! This week we dive deeper into Ruby on Rails and introduce strategies to work effectively with legacy code. We present more complex testing strategies and help you understand how testing can greatly improve your workflow. This week we deepen our knowledge of external libraries (gems), APIs, websockets, etc.
+
+- title: Week 4
+  summary: Advanced React
+  blurb: This week we deepen your knowledge of Javascript by diving deeper into React, a web libray for front-end development. 
+
+- title: Week 5
+  summary: Pair Programming and User-Driven Development
+  blurb: This week we begin to lay the foundation for an online system that allows users to order food online. We work with Ruby on Rails, a popular framework that allows programmers to build complex, exciting web applications, and give you your first insight into Agile practices, focusing on Behavior Driven Development. The Slow Food Challenge is also about thinking more deeply about how the pieces of an application fit together, using advanced techniques such as user registration, authentication and authorization. At the end of the week, we are ready to go live with the Slow Food Online application and we deploy our system using Heroku. To facilitate and automate our deploy process we use techniques such as Continuous Integration and Continuous Deployment.
 
 - title: Week 6
   summary: Mid Course Project
   blurb: Halfway through the course, it is time for you to test your knowledge and take a step away from coach-led exercises. It is time for you to dream up, plan for, and build your own project. Working in teams or groups, you will not only decide what code to write and which features to implement, but also which planning tools to utilize and when and how to delegate assignments, while we keep a watchful eye to make sure everyone is making progress. It's a big week here at Craft Academy.
 
-- title: Week 7
-  summary: Mobile applications
-  blurb: In Week 7 we deepen your knowledge of Javascript by introducing React Native, a framework that enables programmers to write for mobile devices, without having to work with native iOS or Android languages. At the end of the week, you will have deployed two applications to online servers that can be viewed on your mobile device.
-
-- title: Weeks 8, 9 and 10
-  summary: Advanced Rails, Advanced React, APIs and Agile development methods
+- title: Week 7,8 & 9
+  summary: The News room challenge 
   blurb: These weeks strengthen and deepen your competence and experience with a large project that tests the knowledge you have gained thus far. During these three weeks, you'll build a complex and detailed application, based on the prototype you develop in Week Three. This time, you will add multiple layers of complexity, and work in Rails as News Room becomes a marketplace with several user types. We will practice Agile workflow, pushing you to work efficiently. At the end of these weeks, you will have a large, complicated, and impressive project to add to your portfolio.
+
+- title: Weeks 10
+  summary: Tech Week
+  blurb: This week you will get a deeper understanding on the moving parts of the web, and have a chance to review technologies that we have used during the bootcamp.
   
 - title: Weeks 11 & 12
   summary: Final Project and Career Coaching
