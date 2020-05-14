@@ -22,11 +22,13 @@
             - if language == :se
               %th Program
               %th Kursstart
+              %th Ansökan stängs
               %th Examen
               %th Plats
             - else
               %th Program
               %th Course start
+              %th Application Deadline 
               %th Graduation
               %th Locations
 
@@ -41,7 +43,8 @@
                     %br
                       %small
                         Förberedande kurs startar 
-                        = intake.precourse_start_date.strftime('%-d %b %Y') 
+                        = intake.precourse_start_date.strftime('%-d %b %Y')
+                %td{data:{header: 'Ansökan stängs'}}= intake.deadline.strftime('%-d %b %Y')        
                 %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %b %Y')
                 %td{data:{header: 'Plats'}}= intake.locations
               - else
@@ -54,6 +57,7 @@
                         %small
                           Prep course starts 
                           = intake.precourse_start_date.strftime('%-d %b %Y')
+                %td{data:{header: 'Application Deadline'}}= intake.deadline.strftime('%-d %B %Y')          
                 %td{data:{header: 'Graduation'}}= intake.end_date.strftime('%-d %B %Y')
                 %td{data:{header: 'Locations'}}= intake.locations
     .row

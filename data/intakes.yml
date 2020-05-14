@@ -43,6 +43,7 @@
 
 - start_date: 8 June 2020
   end_date: 7 September 2020
+  deadline: 6 May 2020
   precourse_start_date: 11 May 2020
   locations: "Göteborg, Stockholm, Remote"
   course: Full Stack Web Developer Bootcamp
@@ -50,15 +51,16 @@
 
 - start_date: 24 August 2020
   end_date: 14 November 2020
-  deadline_for_application: 8 July 2020
+  deadline: 8 July 2020
   precourse_start_date: 13 July 2020
   locations: "Göteborg, Stockholm, Remote"
   course: Full Stack Web Developer Bootcamp
   price: 99 500 
 
 - start_date: October 26th 2020	
-  end_date: Feb 6th 2021	
-  precourse_start_date: September 28th 2020	
+  end_date: 6 February 2021
+  deadline: 23 September 2020	
+  precourse_start_date: 28 September 2020	
   locations: "Göteborg, Stockholm, Remote"
   course: Full Stack Web Developer Bootcamp
   price: 99 500  
