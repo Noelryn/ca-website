@@ -33,6 +33,10 @@ class Intake
     Date.parse(dates['end_date'])
   end
 
+  def deadline
+    Date.parse(dates['deadline'])
+  end
+
   def locations
     dates['locations']
   end
