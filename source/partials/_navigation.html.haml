@@ -15,7 +15,7 @@
         %li{ class: current_if_current_page(current_page, '/curriculum/') }
           = link_to 'Utbildningar', '/curriculum.html'
         %li{ class: current_if_current_page(current_page, '/nomads/') }
-          = link_to 'Nomads', '/nomads.html'
+          = link_to 'Nomads'.mb_chars.upcase, '/nomads.html'
         %li{ class: current_if_current_page(current_page, '/payment/') }
           = link_to 'Priser'.mb_chars.upcase, '/payment.html'
         %li

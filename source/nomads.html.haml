@@ -1,0 +1,36 @@
+- description 'Learn coding and web development in three months. Nomads is an intensive, practical and focused training where students learn programming in Ruby, Javascript, HTML5, and CSS, among others. We offer training fully - remote bootcamp around the world by distance.'
+%section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_1.jpg')});"}
+  .container
+    .centered-row
+      %h4.leader ARE YOU READY TO CHALLENGE YOURSELF AT HOME 
+      %h1
+        = ' Craft Academy Nomads'.html_safe 
+      %p
+        %strong
+          Nomads is a fully remote course, but not like your tradition passive courses. 
+    .centered-row
+      %small
+        %strong
+          Upcoming courses:
+      - Intake.future_dates[1..2].each do |intake|
+        %h4.leader
+          = intake.course_name
+          = '-'
+          = intake.start_date.strftime('%-d %b %Y')
+%section
+  .container
+    .centered-row
+      %h4.leader About
+      %h2 Nomads
+      %p Nomads is a full-time remote intensive, immersive coach-led Bootcamp. Where you will be trained in everything you will need to become a Junior Full-Stack developer.
+      %p You will take part in demos/talks, work on projects and you will collaborate with your other Nomads on your projects.
+      %p In Nomads you will learn how to be a full-stack developer, learning both backend and front end code languages, you will learn how to fully test your application and working in a TDD way. You will collaborate with your team on ideas for your projects and learn how to go from the design phase to have a working application. The Nomads Bootcamp is a minimum 60+ hours commitment a week, but don't worry there is a dedicated team of couches who will guide and provide support to all the students.
+    %hr
+      %h3.copy--centered The Nomads Pack
+      %p.copy If you take part in Nomads will get a Nomads pack, this will include everything you need to set up a home office. The pack includes a computer, second screen, webcam, headset and all the cables you need to get started, along with some nice Nomads swag.
+      %p
+        %small The Nomads Pack is subject to availability
+
+
+= partial :'course_dates'
+= partial :'apply'
