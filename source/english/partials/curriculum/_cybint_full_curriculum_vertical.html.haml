@@ -1,0 +1,24 @@
+%section
+  .container
+    .centred-row
+      %h2 Cybint Cyber Security Specialist - Course Plan
+      %p.copy--left
+        The Cybint Cyber Security Specialist Bootcamp is an accelerated cybersecurity training program designed to successfully prepare people with little or no background in IT for entry level jobs in cybersecurity, a highly in-demand and lucrative career path. The Bootcamp is delivered in a blended format with both on campus learning and online self-paced activities.      %p.copy--left
+      %p.copy--left
+        The curriculum was developed around military training methodologies and hands-on learning.
+      %hr
+    .definition-row
+      %aside#definition-top
+        %nav.definition-links
+          - data.cybint_curriculum_weeks_en.each_with_index do |week, index|
+            %a.definition-link{href: "#definition-#{index}"}= week[:title]
+      %article
+        - data.cybint_curriculum_weeks_en.each_with_index do |week, index|
+          .category
+            %h4{id: "definition-#{index}"}= week[:title]
+            %dl.definition{id: slug(week[:title])}
+              %dt= week[:summary]
+              %dd
+                %p= week[:blurb]
+    .centered-row
+      = link_to 'Tillbaka', '/curriculum', class: 'button button--vertical'

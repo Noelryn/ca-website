@@ -3,16 +3,26 @@
 
 = partial :'curriculum/splash'
 
-%section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/ipad-fade.jpg')});"}
+%section.hero-splash-white
   .container
     .centered-row
       %h2 Full Stack Web Developer
       %h3 12 veckor
-      %p.copy Applikationsutveckling är komplext. En av de största utmaningar som du kan komma att tampas med när du lär dig att koda, är att veta i vilken ordning du ska lära dig saker och ting i. Vår läroplan är utvecklad av yrkesverksamma mjukvaruingenjörer och baserad på verkliga cases och senaste praxis. Sättet vi har byggt det på garanterar dig att du, vid varje tillfälle, lär dig och jobbar med relevanta ämnen.
+      %p.copy Applikationsutveckling är komplext. En av de största utmaningar som du kan komma att tampas med när du lär dig att koda, är att veta i vilken ordning du ska lära dig saker och ting i.
+
+      %p.copy Vår läroplan är utvecklad av yrkesverksamma mjukvaruingenjörer och baserad på verkliga cases och senaste praxis. Sättet vi har byggt det på garanterar dig att du, vid varje tillfälle, lär dig och jobbar med relevanta ämnen.
       = link_to 'Veckoplan', '/weekly_plan', class: 'button button--vertical'
   .container
+    %br
+    .centered-row
+      %h2 Cybint Cyber Security Specialist
+      %h3 12 veckor
+      %p.copy
+        Cybersecurity är den snabbast växande marknaden inom teknik med 30x tillväxt under det senaste decenniet.
+      %p.copy
+        Säkerhet är inte bara ett hett ämne för stunden, fältet har haft 0% arbetslöshet under nästan ett decennium. Med stora utvecklingsmöjligheter och konkurrenskraftiga villkor, är rätt utbildning det enda som står i vägen för en lukrativ, framtidsbeständig karriär.
+      = link_to 'Veckoplan', '/cybint_weekly_plan', class: 'button button--vertical'
   %br
-  -# %br
   -# .container
   -#   .centered-row
   -#     %h2 React Front-End Developer
