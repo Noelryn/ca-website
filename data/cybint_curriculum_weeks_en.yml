@@ -1,0 +1,47 @@
+- title: Week 1
+  summary: Introduction and Overview of the Cybersecurity Landscape and Industry.
+  blurb: Basics of Computer and Device Hardware, Software, Operating Systems and Processes. Basics of Networking Traffic, Hardware Components and Topology. Network Communication Principles and Methods
+
+- title: Week 2
+  summary: Networking
+  blurb: Network and Routing Protocols / Services. Packet Level Traffic Analysis. Hands-on Operation of a Computer Network and Equipment, Monitoring and Analyzing Network Traffic Flow, Patterns and Performance. Hands-on Creation and Analysis of Critical Network Servers.
+
+- title: Week 3
+  summary: Labs week
+  blurb: Hands-on Creation and Analysis of Telnet, Web, Data and Active Directory Servers. Hands-on Analysis of Network Topologies, Network Mapping and OS Fingerprinting. Telecommunication Concepts and Range. System and Network Admin Concepts, Management Principles and Controls. Hands-on Creation and Use of Virtual Machines and Bootable USB OS
+
+- title: Week 4
+  summary: Threats, attacks, Tactics
+  blurb: Overview of Threats, Classes, Attackers, Tactics, and Application Security Risks (OWASP). Hands-on Communications Security through Encrypting and Decrypting Data and Medias. Hands-on Backup and Recovery of Data, Devices and Servers. Network Security Principles, Methods, Protocols, Components and Architectures
+
+- title: Week 5
+  summary: Security strategies
+  blurb: Hands-on Assessment of Access Controls and Hardening Techniques to Ensure a Network’s Security. Hands-on Configuration and Utilization of a Firewall (on Windows, Linux and Hardware Firewall. Hands-on Configuration and Utilization of a Network/Host Intrusion Detection/Prevention System to Alert and Prevent Malicious Activity on a Network
+
+- title: Week 6
+  summary: Labs and simulations
+  blurb: Hands-on Configuration and Utilization of a Security Information and Event Management System to Correlate, Research, Analyze Logs and Provide Timely Detection of Misuse, Threats and Malicious Activity on the Network. Hands-on Malware Detection, Analysis, Isolation and Removal.
+
+- title: Week 7
+  summary: Forensics
+  blurb: "Cyber-Forensic Investigation Methodologies, Mindset, Tools Hands-on Forensics Investigation: Logs, System Files, Media, Memory Dump and Traffic Monitoring and Analysis."
+
+- title: Week 8
+  summary: Ethical Hacking
+  blurb: Overview of Network Vulnerabilities, Associated Attacks; Ethical Hacking Methodologies, Stages, Principles, Tools and Techniques. Hands-on Conducting of Vulnerability and Compliance Scanning; and Correction Recommendation. Hands-on Performing Incident Response, Damage Assessment, Incident Triage, Tracking and Reporting
+
+- title: Week 9
+  summary: Projecs and simulations
+  blurb: "Full Day Scenarios: Hands-on Protecting a Network from a Range of Cyber-Attacks (DDoS, SQL Injection, XSS, Ransomware, MiTM, ARP Poisoning, etc.)"
+
+- title: Week 10
+  summary: Cyber-defence
+  blurb: Analysis of System Security and Organizational Posture Trends. Analysis of Cyber-Defense Trends and Staying at the Cutting Edge of the Industry. Performing of Security Design and Architecture Evaluation and Ensuing Recommendation
+
+- title: Week 11
+  summary: Labs and simulations
+  blurb: Hands-on Process of the Whole Chain of Custody for Handling Digital Evidence. Hands-on Performing of Static and Dynamic Analysis of Drive Images and other Data Sources, Recovery and Mitigation/Remediation of an Enterprise System.
+
+- title: Week 12
+  summary: Final week
+  blurb: Risk and Security Management Processes and Security Models. Cybersecurity and Privacy Principles. Advising on Disaster Recovery, Contingency and Continuity. Summary and Presentation by Bootcampers. Technical and Soft-Skill Preparation of a Job Interview. Final Hands-on Scenario.
