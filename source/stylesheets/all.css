@@ -1935,6 +1935,7 @@ header.navigation {
         text-decoration: none;
         position: relative;
         top: 3px;
+        font-size: 12px;
     }
 
     header.navigation nav ul a.button--vertical {
@@ -3393,5 +3394,3 @@ footer .footer-copyright img {
 }
 
 /*# sourceMappingURL=all.css.map */
-
-

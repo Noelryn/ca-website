@@ -8,6 +8,8 @@
 -#   = link_to 'Nomads'.mb_chars.upcase, '/english/nomads.html'
 %li{ class: current_if_current_page(current_page, '/english/payment/') }
   = link_to 'Prices'.mb_chars.upcase, '/english/payment.html'
+%li{ class: current_if_current_page(current_page, '/english/nomads/') }
+  = link_to 'Enterprise'.mb_chars.upcase, '/english/enterprise_training.html'
 %li
   = link_to flag_image(:swedish), '/'
 - if current_page.url == '/english/employers/'
