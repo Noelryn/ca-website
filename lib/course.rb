@@ -43,7 +43,7 @@ class Course
     if course['dates'].is_a?(Array) && !course['dates'].empty?
       course['dates']
     else
-      ['No planned runs at this time - please contact us.']
+      %w[On\ demand/custom\ dates\ -\ Stockholm\ Gothenburg\ or\ customer's\ location]
     end
   end
 

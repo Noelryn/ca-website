@@ -1,6 +1,6 @@
 - title: Work The Web
   slug: wtw
-  dates: ['10 November 2020 - Stockholm', '14 November 2020 - Gothenburg']
+  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
   price: From 1 000 SEK - €100 (Contact us for details)
   active: true
   description: Do you want to understand how applications for the web are built, but don’t know where to start? This workshop is for everyone that is curious about programming for the internet and wants to gain new skills in web development and basic data science. We'll be covering the basics of HTML, CSS, and JavaScript, and by the end of the day, you'll have an overview of the big picture of how internet applications are structured and how you can Work The Web - not only consume it.
@@ -9,7 +9,7 @@
 
 - title: "Test Automation using Cypress"
   slug: cypress_1
-  dates: ['10 November 2020 - Stockholm', '14 November 2020 - Gothenburg']
+  dates: ['10-11 November 2020 - Stockholm', '17-18 November 2020 - Gothenburg']
   price: 24 500 SEK - €2.450
   active: true
   description: Cypress is a cutting-edge framework that makes writing automated tests for front-end applications mostly frictionless. This course is a rapid introduction to Cypress.io, covering basic and intermediate techniques for writing end-to-end test cases. Throughout this course, you’ll learn how to write test cases that simulate different interactions between your end-users and your application. This course is for anyone who wants to learn how to work with Cypress and properly use this new tool to incorporate automated testing in their development flow.
