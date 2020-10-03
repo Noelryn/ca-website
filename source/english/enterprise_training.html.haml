@@ -26,8 +26,13 @@
       %h2.copy-left
         New course releases Fall/Winter 2020 - 2021
         -# = partial :'/english/partials/_meet_our_coaches'
+      %ul{style: 'list-style: none; '}
+        - Course.active_categories.each do |category|
+          %li{data: {filter: category}, style: 'cursor:pointer; display: inline-block; font-weight: bold; '}
+            = category.upcase
+
       - Course.all_active.each do |course|
-        %div{style: 'margin-left: 40px; padding-right: 40px;', id: "course_#{course.slug}"}
+        %div{style: 'margin-left: 40px; padding-right: 40px;', id: "course_#{course.slug}", data: {cat: course.category}}
           %h3{style: 'margin-top: 30px;'}
             = course.title
           %div
@@ -82,3 +87,22 @@
     %article
       %p
         %small Terms and conditions apply. All prices are excluding Swedish VAT and subject to change. The price in Euro is for your reference only. An invoice or CC payment request will be issued to your company/organization.
+
+:javascript
+  const hideCourses = (courses, category) => {
+    courses.forEach(course => {
+      course.style.display = "";
+      if (course.dataset.cat !== category) {course.style.display = "none";}
+    })
+    return null
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    const courses = document.querySelectorAll('[data-cat]');
+    const categoryFilters = document.querySelectorAll('[data-filter]');
+    categoryFilters.forEach(filter => {
+      filter.addEventListener('click', (event) => {
+        const category = event.target.dataset.filter
+        hideCourses(courses, category)
+      })
+    })
+  })

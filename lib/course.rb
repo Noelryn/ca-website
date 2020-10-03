@@ -47,6 +47,10 @@ class Course
     end
   end
 
+  def category
+    course['category']
+  end
+
   def self.all
     YAML.load_file(FILE_NAME).map do |course|
       new(course)
@@ -55,5 +59,9 @@ class Course
 
   def self.all_active
     all.select(&:active)
+  end
+
+  def self.active_categories
+    all.map(&:category).uniq! {|category| category }
   end
 end
