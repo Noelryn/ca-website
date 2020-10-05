@@ -59,7 +59,29 @@
   instructors: Thomas Ochman, Aditya Naik.
 
 - title: ReactJs - Getting Started (2020 edition)
-  slug: node_api
+  slug: react_1
+  category: react
+  dates: []
+  price: 24 500 SEK - €2.450
+  active: true
+  description:
+    Do you want to create web apps that are fast, scalable and easy to build? In this practical course, we go through the basics of ReactJS so that you can quickly get started and build your own web apps. The course provides a solid introduction to component-based frameworks and puts a great deal of focus on the practical steps for creating React apps. The content and exercises are updated to the latest version of ReactJS.
+  info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
+  instructors: Thomas Ochman, Aditya Naik.
+
+- title: ReactJs - Advanced (2020 edition)
+  slug: react_2
+  category: react
+  dates: []
+  price: 24 500 SEK - €2.450
+  active: true
+  description:
+    Do you want to create web apps that are fast, scalable and easy to build? In this practical course, we go through the basics of ReactJS so that you can quickly get started and build your own web apps. The course provides a solid introduction to component-based frameworks and puts a great deal of focus on the practical steps for creating React apps. The content and exercises are updated to the latest version of ReactJS.
+  info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
+  instructors: Thomas Ochman, Aditya Naik.
+
+- title: TDD with ReactJs (2020 edition)
+  slug: react_3
   category: react
   dates: []
   price: 24 500 SEK - €2.450
