@@ -57,10 +57,10 @@
   course: Full Stack Web Developer Bootcamp/ Nomads
   price: 99 500
 
-- start_date: October 19th 2020
-  end_date: 6 February 2021
-  deadline: 23 September 2020
-  precourse_start_date: null
+- start_date: 30 November 2020
+  end_date: 6 March 2021
+  deadline: 23 October 2020
+  precourse_start_date: 23 November 2020
   locations: "Göteborg, Stockholm, Nomads (remote)"
   course: Cybint Cyber Security Specialist
   price: 115 000
@@ -69,6 +69,14 @@
   end_date: 6 February 2021
   deadline: 23 September 2020
   precourse_start_date: 28 September 2020
+  locations: "Göteborg, Stockholm, Nomads (remote)"
+  course: Full Stack Web Developer Bootcamp/ Nomads
+  price: 99 500
+
+- start_date: 18 January 2021
+  end_date: 10 April 2021
+  deadline: 24 November 2020
+  precourse_start_date: 30 November 2020
   locations: "Göteborg, Stockholm, Nomads (remote)"
   course: Full Stack Web Developer Bootcamp/ Nomads
   price: 99 500

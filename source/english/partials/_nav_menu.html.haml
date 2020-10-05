@@ -1,13 +1,15 @@
 %li{ class: current_if_current_page(current_page, '/english/about_us/') }
   = link_to 'About Us'.mb_chars.upcase, '/english/about_us.html'
-%li{ class: current_if_current_page(current_page, '/english/employers/') }
-  = link_to 'Hire!'.mb_chars.upcase, '/english/employers.html'
+-# %li{ class: current_if_current_page(current_page, '/english/employers/') }
+-#   = link_to 'Hire!'.mb_chars.upcase, '/english/employers.html'
 %li{ class: current_if_current_page(current_page, '/english/curriculum/') }
   = link_to 'Programs'.mb_chars.upcase, '/english/curriculum.html'
-%li{ class: current_if_current_page(current_page, '/english/nomads/') }
-  = link_to 'Nomads'.mb_chars.upcase, '/english/nomads.html'
+-# %li{ class: current_if_current_page(current_page, '/english/nomads/') }
+-#   = link_to 'Nomads'.mb_chars.upcase, '/english/nomads.html'
 %li{ class: current_if_current_page(current_page, '/english/payment/') }
   = link_to 'Prices'.mb_chars.upcase, '/english/payment.html'
+%li{ class: current_if_current_page(current_page, '/english/nomads/') }
+  = link_to 'Enterprise'.mb_chars.upcase, '/english/enterprise_training.html'
 %li
   = link_to flag_image(:swedish), '/'
 - if current_page.url == '/english/employers/'
