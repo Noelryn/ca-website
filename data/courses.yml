@@ -52,7 +52,7 @@
   slug: node_api
   category: node
   dates: ['1-3 December 2020 - Stockholm', '17-19 November 2020 - Gothenburg']
-  price: 35 500 SEK - €3.500
+  price: 33 500 SEK - €3.300
   active: true
   description: Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser. In this course you’ll learn how to build modern, fast and scalable RESTful API with NodeJS. We’ll start from the top explaining the HTTP protocol, the REST architecture, database connectivity, user authentication, etc, and move on to build, test and deploy a small API in a series of code-along exercises. This is a fast-paced, accelerated training that requires your active participation and a lot of grit.
   info: 3 days (21 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
@@ -75,18 +75,16 @@
   dates: ['11-12 November 2020 - Stockholm', '18-19 November 2020 - Gothenburg']
   price: 24 500 SEK - €2.450
   active: true
-  description:
-    Do you want to create web apps that are fast, scalable and easy to build? In this practical course, we go through the basics of ReactJS so that you can quickly get started and build your own web apps. The course provides a solid introduction to component-based frameworks and puts a great deal of focus on the practical steps for creating React apps. The content and exercises are updated to the latest version of ReactJS.
+  description: This is the course for developers with basic knowledge of React and who want to both deepen their knowledge of React but also learn about the tools and strategies for creating automated tests. The training alternates theory with practice to give you as a participant the opportunity to put your new knowledge into practice as quickly as possible!
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
   instructors: Thomas Ochman, Aditya Naik.
 
 - title: TDD with ReactJs (2020 edition)
   slug: react_3
   category: react
-  dates: ['8-9 November 2020 - Gothenburg']
-  price: 24 500 SEK - €2.450
+  dates: ['8-10 November 2020 - Gothenburg']
+  price: 33 500 SEK - €3.300
   active: true
-  description:
-    Do you want to create web apps that are fast, scalable and easy to build? In this practical course, we go through the basics of ReactJS so that you can quickly get started and build your own web apps. The course provides a solid introduction to component-based frameworks and puts a great deal of focus on the practical steps for creating React apps. The content and exercises are updated to the latest version of ReactJS.
-  info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
+  description: This is the course for developers who want to immerse themselves in how to develop React applications in a test-driven way. During the training, we also go through state management, user authentication and retrieve and write data to external APIs.
+  info: 3 days (21 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
   instructors: Thomas Ochman, Aditya Naik.
