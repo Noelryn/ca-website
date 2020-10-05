@@ -11,7 +11,7 @@
 - title: "Test Automation using Cypress"
   slug: cypress_1
   category: testing
-  dates: ['10-11 November 2020 - Stockholm', '17-18 November 2020 - Gothenburg']
+  dates: ['26-27 October 2020 - Stockholm', '12-13 November 2020 - Gothenburg']
   price: 24 500 SEK - €2.450
   active: true
   description: Cypress is a cutting-edge framework that makes writing automated tests for front-end applications mostly frictionless. This course is a rapid introduction to Cypress.io, covering basic and intermediate techniques for writing end-to-end test cases. Throughout this course, you’ll learn how to write test cases that simulate different interactions between your end-users and your application. This course is for anyone who wants to learn how to work with Cypress and properly use this new tool to incorporate automated testing in their development flow.
@@ -21,7 +21,7 @@
 - title: Introduction to VUE3
   slug: intro_vue3
   category: vue
-  dates: []
+  dates: ['27 October 2020 - Stockholm', '17 November 2020 - Stockholm', '7 December 2020 - Stockholm', '28 October 2020 - Gothenburg', '19 November 2020 - Gothenburg', '9 December 2020 - Gothenburg']
   price: 13 000 SEK - €1.300
   active: true
   description: Vue brings together the best features of the JavaScript framework landscape. This introductory course is the first step through the Vue framework, and will help you to explore the technology and build a solid foundation of skills. Throughout this course, you’ll learn the fundamentals of Vue version 3, and build an app to put these concepts in practice.
@@ -31,7 +31,7 @@
 - title: Building Web Applications using VUE 3
   slug: advanced_vue3
   category: vue
-  dates: []
+  dates: ['3-4 November 2020 - Stockholm', '30-1 November/December 2020 - Stockholm', '10-11 November 2020 - Gothenburg', '3-4 December 2020 - Gothenburg']
   price: 24 500 SEK - €2.450
   active: true
   description: Move past the basics of Vue, and start building real-life applications. In this practically oriented course, you’ll get an opportunity to put your Vue skills to use, as well as get your hands on some advanced techniques that will help you to develop fully featured applications for the browser. Learn how to consume APIs (REST), create reusable components, use custom validation for forms, use Vuex store, and much more. We’ll also cover how you can make use of various Platform as a Service (PAAS) to deploy your applications
@@ -41,7 +41,7 @@
 - title: Version Control with Git
   slug: intro_git
   category: productivity
-  dates: []
+  dates: ['10-11 November 2020 - Stockholm', '24-25 November 2020 - Gothenburg']
   price: 24 500 SEK - €2.450
   active: true
   description: For all professional developers, managing different versions of project files, keeping track of work, and collaborating over code, are fundamental skills in order to maintain good quality and build and deliver complex solutions. Using version control systems in general, and Git in particular makes working on complex projects manageable. This course covers the essentials of using Git as a version control system and cloud based services (GitHub) to easily share code and collaborate in projects.
@@ -51,7 +51,7 @@
 - title: API development with NodeJS
   slug: node_api
   category: node
-  dates: []
+  dates: ['1-3 December 2020 - Stockholm', '17-19 November 2020 - Gothenburg']
   price: 35 500 SEK - €3.500
   active: true
   description: Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser. In this course you’ll learn how to build modern, fast and scalable RESTful API with NodeJS. We’ll start from the top explaining the HTTP protocol, the REST architecture, database connectivity, user authentication, etc, and move on to build, test and deploy a small API in a series of code-along exercises. This is a fast-paced, accelerated training that requires your active participation and a lot of grit.
@@ -61,7 +61,7 @@
 - title: ReactJs - Getting Started (2020 edition)
   slug: react_1
   category: react
-  dates: []
+  dates: ['28-29 October 2020 - Stockholm', '26-27 November 2020 - Stockholm', '4-5 November 2020 - Gothenburg', '11-12 December 2020 - Gothenburg',]
   price: 24 500 SEK - €2.450
   active: true
   description:
@@ -72,7 +72,7 @@
 - title: ReactJs - Advanced (2020 edition)
   slug: react_2
   category: react
-  dates: []
+  dates: ['11-12 November 2020 - Stockholm', '18-19 November 2020 - Gothenburg']
   price: 24 500 SEK - €2.450
   active: true
   description:
@@ -83,7 +83,7 @@
 - title: TDD with ReactJs (2020 edition)
   slug: react_3
   category: react
-  dates: []
+  dates: ['8-9 November 2020 - Gothenburg']
   price: 24 500 SEK - €2.450
   active: true
   description:
