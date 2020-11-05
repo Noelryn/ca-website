@@ -46,6 +46,22 @@
         - if current_page.url == '/employers/'
           %li{ class: current_if_current_page(current_page, '/apply/') }
             = link_to 'Anställ'.mb_chars.upcase, config.hire_form_url, class: 'button button--vertical', target: '_blank'
+        - elsif current_page_is_campaign_page?
+          = link_to 'Ansök'.mb_chars.upcase, config.apply_form_url, class: 'button button--horizontal', target: '_blank'
         - else
-          %li{ class: current_if_current_page(current_page, '/apply/') }
-            = link_to 'Ansök'.mb_chars.upcase, config.apply_form_url, class: current_page_is_campaign_page? ? 'button button--horizontal' : 'button button--vertical', target: '_blank'
+          %li{ class: "dropdown" }
+            %button{class: 'button button--vertical dropbtn', id: 'apply_button'}
+              Ansök till...
+            .dropdown-content
+              = link_to 'BootCamp'.mb_chars.upcase, config.apply_form_url, target: '_blank'
+              %p
+                Våra accelererade utbildningar inom programmering eller säkerhet.
+                %br För privatpersoner, start-ups och organisationer som växer eller genomför ett teknikskifte.
+
+              %hr
+
+              = link_to 'Företagskurser'.mb_chars.upcase, '/english/enterprise_training/'
+              %p
+                Våra företagsutbildningar inom JavaScript, produktivitet, versionshantering, test, mm.
+                %br Vi håller kurser i Stokholm, Göteborg eller på plats i kundens lokaler.
+              %hr

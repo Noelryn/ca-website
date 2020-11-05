@@ -1,5 +1,11 @@
+%section.no-padding-bottom.no-min-height{style: 'padding-bottom: 30px;'}
+  .container{style: 'margin-bottom: 40px;'}
+    .centered-row
+      %h2 Meet Our Students
+      %p{style: 'max-width: 90% !important;'}
+        Craft Academy students come from diverse backgrounds. But when they graduate from bootcamp, they all have one thing in common: they are ready to work as web developers. From entrepreneurs developing their own products to mid-level executives who wanted to make a career shift, their stories show the value in practical training.
 
-%section.full-slider{style: 'padding: 0px !important;'}
+%section.full-slider{style: 'padding: 0px !important; margin-bottom: 40px;'}
   .slider
     - find_en_graduates.each do | grad |
       .slide
@@ -22,12 +28,6 @@
                     = link_to "Visit #{possessivize(grad[:first_name])} blog", grad[:blog_link], class: 'button button--horizontal', target: '_blank'
             .image.hide-desktop.no-padding
               = image_tag("people/#{grad[:image]}")
-%section.no-padding-bottom.no-min-height{style: 'padding-bottom: 30px;'}
-  .container
-    .centered-row
-      %h2 Meet Our Students
-      %p{style: 'max-width: 90% !important;'}
-        Craft Academy students come from diverse backgrounds. But when they graduate from bootcamp, they all have one thing in common: they are ready to work as web developers. From entrepreneurs developing their own products to mid-level executives who wanted to make a career shift, their stories show the value in practical training.
 
 :javascript
   document.addEventListener('DOMContentLoaded', function(){

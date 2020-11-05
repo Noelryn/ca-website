@@ -11,17 +11,17 @@
 - title: "Test Automation using Cypress"
   slug: cypress_1
   category: testing
-  dates: ['26-27 October 2020 - Stockholm', '12-13 November 2020 - Gothenburg']
+  dates: ['12-13 November 2020 - Gothenburg', 'Other dates on demand']
   price: 24 500 SEK - €2.450
   active: true
   description: Cypress is a cutting-edge framework that makes writing automated tests for front-end applications mostly frictionless. This course is a rapid introduction to Cypress.io, covering basic and intermediate techniques for writing end-to-end test cases. Throughout this course, you’ll learn how to write test cases that simulate different interactions between your end-users and your application. This course is for anyone who wants to learn how to work with Cypress and properly use this new tool to incorporate automated testing in their development flow.
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Thomas Ochman, Aditya Naik, Emma-Maria Thalén
+  instructors: Thomas Ochman, Emma-Maria Thalén
 
 - title: Introduction to VUE3
   slug: intro_vue3
   category: vue
-  dates: ['27 October 2020 - Stockholm', '17 November 2020 - Stockholm', '7 December 2020 - Stockholm', '28 October 2020 - Gothenburg', '19 November 2020 - Gothenburg', '9 December 2020 - Gothenburg']
+  dates: ['17 November 2020 - Stockholm', '7 December 2020 - Stockholm', '19 November 2020 - Gothenburg', '9 December 2020 - Gothenburg' , 'Other dates on demand']
   price: 13 000 SEK - €1.300
   active: true
   description: Vue brings together the best features of the JavaScript framework landscape. This introductory course is the first step through the Vue framework, and will help you to explore the technology and build a solid foundation of skills. Throughout this course, you’ll learn the fundamentals of Vue version 3, and build an app to put these concepts in practice.
@@ -31,7 +31,7 @@
 - title: Building Web Applications using VUE 3
   slug: advanced_vue3
   category: vue
-  dates: ['3-4 November 2020 - Stockholm', '30-1 November/December 2020 - Stockholm', '10-11 November 2020 - Gothenburg', '3-4 December 2020 - Gothenburg']
+  dates: ['30-1 November/December 2020 - Stockholm', '10-11 November 2020 - Gothenburg', '3-4 December 2020 - Gothenburg', 'Other dates on demand']
   price: 24 500 SEK - €2.450
   active: true
   description: Move past the basics of Vue, and start building real-life applications. In this practically oriented course, you’ll get an opportunity to put your Vue skills to use, as well as get your hands on some advanced techniques that will help you to develop fully featured applications for the browser. Learn how to consume APIs (REST), create reusable components, use custom validation for forms, use Vuex store, and much more. We’ll also cover how you can make use of various Platform as a Service (PAAS) to deploy your applications
@@ -41,50 +41,60 @@
 - title: Version Control with Git
   slug: intro_git
   category: productivity
-  dates: ['10-11 November 2020 - Stockholm', '24-25 November 2020 - Gothenburg']
+  dates: ['10-11 November 2020 - Stockholm', '24-25 November 2020 - Gothenburg', 'Other dates on demand']
   price: 24 500 SEK - €2.450
   active: true
   description: For all professional developers, managing different versions of project files, keeping track of work, and collaborating over code, are fundamental skills in order to maintain good quality and build and deliver complex solutions. Using version control systems in general, and Git in particular makes working on complex projects manageable. This course covers the essentials of using Git as a version control system and cloud based services (GitHub) to easily share code and collaborate in projects.
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Thomas Ochman, Emma-Maria Thalén.
+  instructors: Emma-Maria Thalén, Thomas Ochman.
 
 - title: API development with NodeJS
   slug: node_api
   category: node
-  dates: ['1-3 December 2020 - Stockholm', '17-19 November 2020 - Gothenburg']
+  dates: ['1-3 December 2020 - Stockholm', '17-19 November 2020 - Gothenburg', 'Other dates on demand']
   price: 33 500 SEK - €3.300
   active: true
   description: Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser. In this course you’ll learn how to build modern, fast and scalable RESTful API with NodeJS. We’ll start from the top explaining the HTTP protocol, the REST architecture, database connectivity, user authentication, etc, and move on to build, test and deploy a small API in a series of code-along exercises. This is a fast-paced, accelerated training that requires your active participation and a lot of grit.
   info: 3 days (21 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Thomas Ochman, Aditya Naik.
+  instructors: Thomas Ochman
 
 - title: ReactJs - Getting Started (2020 edition)
   slug: react_1
   category: react
-  dates: ['28-29 October 2020 - Stockholm', '26-27 November 2020 - Stockholm', '4-5 November 2020 - Gothenburg', '11-12 December 2020 - Gothenburg',]
+  dates: ['26-27 November 2020 - Stockholm',  '11-12 December 2020 - Gothenburg', 'Other dates on demand']
   price: 24 500 SEK - €2.450
   active: true
   description:
     Do you want to create web apps that are fast, scalable and easy to build? In this practical course, we go through the basics of ReactJS so that you can quickly get started and build your own web apps. The course provides a solid introduction to component-based frameworks and puts a great deal of focus on the practical steps for creating React apps. The content and exercises are updated to the latest version of ReactJS.
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Thomas Ochman, Aditya Naik.
+  instructors: Emma-Maria Thalén., Thomas Ochman
 
 - title: ReactJs - Advanced (2020 edition)
   slug: react_2
   category: react
-  dates: ['11-12 November 2020 - Stockholm', '18-19 November 2020 - Gothenburg']
+  dates: ['11-12 November 2020 - Stockholm', '18-19 November 2020 - Gothenburg', 'Other dates on demand']
   price: 24 500 SEK - €2.450
   active: true
   description: This is the course for developers with basic knowledge of React and who want to both deepen their knowledge of React but also learn about the tools and strategies for creating automated tests. The training alternates theory with practice to give you as a participant the opportunity to put your new knowledge into practice as quickly as possible!
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Thomas Ochman, Aditya Naik.
+  instructors: Thomas Ochman
 
 - title: TDD with ReactJs (2020 edition)
   slug: react_3
   category: react
-  dates: ['8-10 November 2020 - Gothenburg']
+  dates: ['8-10 November 2020 - Gothenburg', 'Other dates on demand']
   price: 33 500 SEK - €3.300
   active: true
   description: This is the course for developers who want to immerse themselves in how to develop React applications in a test-driven way. During the training, we also go through state management, user authentication and retrieve and write data to external APIs.
   info: 3 days (21 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Thomas Ochman, Aditya Naik.
+  instructors: Thomas Ochman
+
+- title:  From idea to customer collaboration
+  slug: agile_1
+  category: agile
+  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  price: 33 500 SEK - €3.300
+  active: true
+  description: How do we build stuff that people love? Because that is the real goal (not agile or Scrum). This course is about capturing your idea and involving users & stakeholders. We avoid trying to guess what the user wants, instead we go for what they really wants. You will work very hands-on with your own idea, and throughout the journey you will also learn Scrum and other commonly used tools.
+  info: 3 days (21 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
+  instructors: Sami Spjuth

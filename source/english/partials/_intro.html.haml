@@ -15,23 +15,24 @@
       %p.copy--left
         %strong
           With help from our network of Hiring Partners in Sweden and throughout Europe, we guide our students as they start their new careers.
-      %article
-        %h4.leader You do the job
-        %h2 We guarantee the results
-        %p.copy
-          Our job guarantee refunds you the tuition fee, if you do not get a job after completing the bootcamp. 
-        %p.copy
-          %strong
-            We believe in ourselves and we believe in you. Together we shape the future.
-        %p.copy
-          Conditons apply 
-        %p.copy--left
-      %article
-        %h3 54 Best Coding Bootcamps of 2020-2021.
+      %article{style: 'padding-top: 5vh;'}
+        %h2
+          = "54 Best Coding Bootcamps<br />of 2020-2021."
         %p.copy
           %strong
             We are very pround to make the top 15 list of the Best Bootcamps 2020-2021 by Course Report.
         %p.copy
-        = link_to image_tag('awards/award-2020-2021-green-resize.png')
-
-        
+          = link_to "read more...",'https://www.coursereport.com/best-coding-bootcamps'
+        %p.copy
+          = link_to(image_tag('awards/award-2020-2021-green-resize.png', {style: 'width: 35%; height: auto;'}),'https://www.coursereport.com/best-coding-bootcamps')
+      %article{style: 'padding-top: 5vh;'}
+        %h4.leader You do the job
+        %h2 We guarantee the results
+        %p.copy
+          Our job guarantee refunds you the tuition fee, if you do not get a job after completing the bootcamp.
+        %p.copy
+          %strong
+            We believe in ourselves and we believe in you. Together we shape the future.
+        %p.copy
+          Conditons apply
+        %p.copy--left
