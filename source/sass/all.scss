@@ -8,7 +8,7 @@
 
 @import "overrides";
 
-#news-modal{
+#news-modal {
   width: 70% !important;
   max-width: 70% !important;
 }
@@ -29,4 +29,62 @@
 
 .space {
   padding-top: 4rem;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #f28e24;
+  color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  text-align: right;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 8px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: right;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 0px;
+  font-weight: bold;
+}
+
+.dropdown-content a:first-of-type:hover {
+  border-radius: 4px 4px 0px 0px;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
 }

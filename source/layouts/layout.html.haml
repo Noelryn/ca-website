@@ -9,10 +9,11 @@
     = stylesheet_link_tag 'compatibility'
     <![endif]-->
     %meta{charset: 'utf-8'}/
+
     %meta{content: 'ie=edge', 'http-equiv' => 'x-ua-compatible'}/
     %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}/
     / Always force latest IE rendering engine or request Chrome Frame
-    %meta{content: 'IE=edge,chrome=1', 'http-equiv' => 'X-UA-Compatible'}/
+    %meta{content: 'IE=edge,chrome=1', 'http-equiv' => 'X-UA-Compatible', "Cache-Control"=>"no-cache, no-store"}/
 
     %link{href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: 'image/x-icon'}/
 

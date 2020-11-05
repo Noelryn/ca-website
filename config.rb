@@ -135,6 +135,7 @@ activate :deploy do |deploy|
   deploy.clean           = true
 end
 
+
 configure :development do
   activate :livereload
 

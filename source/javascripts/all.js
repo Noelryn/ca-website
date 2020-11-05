@@ -70,6 +70,26 @@ function parallax(event) {
 
 
 $(document).ready(function () {
+  const button = document.getElementById('apply_button')
+  if (button) {
+    let dropdowns = document.getElementsByClassName("dropdown-content");
+    button.addEventListener('click', () => {
+      Array.from(dropdowns).forEach(item => {
+        item.classList.contains('show') ? item.classList.remove('show') : item.classList.add('show')
+      })
+    })
+    // Hide the menu if button looses focus
+    button.addEventListener('blur', () => {
+      window.setTimeout(()=>{
+        Array.from(dropdowns).forEach(item => {
+          item.classList.remove('show')
+        })
+        // Manually blur the button
+        $(button).blur(()=>{}).blur()
+      }, 100)
+    })
+  }
+
 
 
   // Uses jQuery Modal: http://jquerymodal.com/
