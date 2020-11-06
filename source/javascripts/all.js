@@ -86,7 +86,7 @@ $(document).ready(function () {
         })
         // Manually blur the button
         $(button).blur(()=>{}).blur()
-      }, 100)
+      }, 500)
     })
   }
 
