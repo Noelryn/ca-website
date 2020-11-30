@@ -62,6 +62,6 @@ class Course
   end
 
   def self.active_categories
-      .map(&:category).uniq! {|category| category }
+      all.map(&:category).uniq! {|category| category }
   end
 end
